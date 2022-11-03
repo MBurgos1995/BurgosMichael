@@ -1,0 +1,10 @@
+body {
+    width: 100vw;
+    height: 250vh;
+    background-image: url("../assets/images/fondopagina.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}

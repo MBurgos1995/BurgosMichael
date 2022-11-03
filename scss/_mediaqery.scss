@@ -1,0 +1,24 @@
+@media (max-width: 576px) { 
+    body{
+        height: 400vh;
+    
+    }
+    main {
+        height: 430vh;
+    }
+    .ocultarmobile {
+        display: none;
+    }
+}
+@media (max-width: 320px) {
+    body{
+        height: 520vh;
+    
+    }
+    main {
+        height: 550vh;
+    }
+    .ocultarmobile {
+        display: none;
+    }
+}

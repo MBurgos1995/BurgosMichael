@@ -1,0 +1,95 @@
+@mixin reset {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+@mixin coloramarillo {
+    color: $colormenu; 
+}
+@mixin alineadocentrado {
+    text-align: center !important;
+}
+@mixin aleneadoderecha {
+    text-align: right
+}
+@mixin titulo1 {
+    @include coloramarillo;
+    @include aleneadoderecha;
+    margin-right: ($margenvs*4);
+    font-size: ($tam-fuente+10);
+    padding: ($margenvs*3);
+    margin: ($margenvs*3);
+}
+@mixin titulo3 {
+    @include coloramarillo;
+    @include alineadocentrado;
+    font-weight: bold;
+    font-size: ($tam-fuente*12)+50;
+    padding : ($margenvs*20);
+}
+ @mixin titulo4 {
+    @include coloramarillo;
+    @include alineadocentrado;
+    font-weight: bold !important;   
+    margin-top: ($margenvs*2) !important;
+    margin-bottom: ($margenvs*2) !important;
+    justify-content: center !important;
+ }
+ @mixin titulo5 {
+    @include coloramarillo;
+    padding: $margenvs;
+    margin: $margenvs;
+ }
+ @mixin titulo6 {
+    @include aleneadoderecha;
+    margin-right: ($margenvs*4);
+    font-size: ($tam-fuente+20);
+    padding: ($margenvs*3);
+    margin: ($margenvs*3);
+    color: $colormenu;
+ }
+ @mixin parrafo1 {
+    @include coloramarillo;
+    @include aleneadoderecha;
+    margin-bottom: ($margenvs*12);
+    margin-right: ($margenvs*8);
+    color: $colornav;
+    font-size: $tam-fuente;
+ }
+ @mixin tituloparrafo3 {
+    @include coloramarillo;
+    @include alineadocentrado;
+    width: 100vw;
+    font-size: ($tam-fuente+10);
+    display: inline-block;
+    justify-content: center;
+    padding: ($margenvs*10);
+ }
+ @mixin tituloparrafo5 {
+    @include coloramarillo;
+    @include alineadocentrado;
+    width: 100vw;
+    font-size: ($tam-fuente+10);
+    display: inline-block;
+    justify-content: center;
+    padding: ($margenvs*4);
+ }
+ @mixin parrafocontacto {
+    text-align: left;
+    font-size: $tam-fuente;
+    padding: ($margenvs*2) ;
+    margin: ($margenvs*2);
+    font-weight: bold;
+ }
+ @mixin centrarimagen {
+    display: block!important;
+    width: 60% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+ }
+ @mixin imagenfondocontacto {
+    background-image: url("../assets/images/fondocontacto.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+ }

@@ -1,0 +1,168 @@
+body {
+  width: 100vw;
+  height: 250vh;
+  background-image: url("../assets/images/fondopagina.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column; }
+
+header {
+  width: 100vw;
+  height: 45vh; }
+
+.nav-link {
+  color: black;
+  font-size: 25px !important;
+  margin-left: 100px !important;
+  margin-bottom: 50px !important; }
+
+.navbar-brand {
+  color: black; }
+
+.navbar-collapse {
+  background-color: #ffcd26 !important; }
+
+.colormenu {
+  color: #ffcd26 !important; }
+
+main {
+  width: 100vw;
+  height: 200vh; }
+
+.titulo1 {
+  color: #ffcd26 !important;
+  text-align: right;
+  margin-right: 20px;
+  font-size: 35px;
+  padding: 15px;
+  margin: 15px; }
+
+.titulo2 {
+  color: #ffcd26 !important !important;
+  font-weight: bold !important; }
+
+.titulo3 {
+  color: #ffcd26 !important;
+  text-align: center !important;
+  font-weight: bold;
+  font-size: 350px;
+  padding: 100px; }
+
+.titulo4 {
+  color: #ffcd26 !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  justify-content: center !important; }
+
+.titulo5 {
+  color: #ffcd26 !important;
+  padding: 5px;
+  margin: 5px; }
+
+.titulo6 {
+  text-align: right;
+  margin-right: 20px;
+  font-size: 45px;
+  padding: 15px;
+  margin: 15px;
+  color: #ffcd26 !important; }
+
+.parrafo1 {
+  color: #ffcd26 !important;
+  text-align: right;
+  margin-bottom: 60px;
+  margin-right: 40px;
+  color: black;
+  font-size: 25px; }
+
+.centraimagen {
+  justify-content: center !important; }
+
+.centrarimagen {
+  display: block !important;
+  width: 60% !important;
+  margin-left: auto !important;
+  margin-right: auto !important; }
+
+.tituloparrafo3 {
+  color: #ffcd26 !important;
+  text-align: center !important;
+  width: 100vw;
+  font-size: 35px;
+  display: inline-block;
+  justify-content: center;
+  padding: 50px; }
+
+.tituloparrafo5 {
+  color: #ffcd26 !important;
+  text-align: center !important;
+  width: 100vw;
+  font-size: 35px;
+  display: inline-block;
+  justify-content: center;
+  padding: 20px; }
+
+.formulariocentrado {
+  padding: 1px;
+  margin-left: 10px; }
+
+.imagenfondocontacto {
+  background-image: url("../assets/images/fondocontacto.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center; }
+
+.parrafocontacto {
+  text-align: left;
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold; }
+
+footer {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end; }
+
+.pie-de-pagina {
+  text-align: center !important;
+  justify-content: flex-start;
+  align-items: flex-end;
+  display: inline-flex;
+  text-decoration: none;
+  font-weight: bold; }
+
+.iconofooter {
+  width: 50px !important;
+  padding: 5px !important;
+  margin: 5px !important; }
+
+.pie-de-pagina-contacto {
+  margin: 50px;
+  margin-left: 20px; }
+
+.pie-de-pagina-trabajosrealizados {
+  height: 1vh; }
+
+@media (max-width: 576px) {
+  body {
+    height: 400vh; }
+  main {
+    height: 430vh; }
+  .ocultarmobile {
+    display: none; } }
+
+@media (max-width: 320px) {
+  body {
+    height: 520vh; }
+  main {
+    height: 550vh; }
+  .ocultarmobile {
+    display: none; } }

@@ -1,0 +1,19 @@
+header {
+    width: 100vw;
+    height: 45vh;
+}
+.nav-link{
+    color:$colornav;
+    font-size: $tam-fuente !important;
+    margin-left: ($margenvs*20) !important;
+    margin-bottom: ($margenvs*10) !important;
+}
+.navbar-brand{
+    color:$colornav;
+}
+.navbar-collapse {
+    background-color:$colormenu;
+}
+.colormenu {
+    color:$colormenu;
+}
