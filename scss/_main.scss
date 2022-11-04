@@ -1,6 +1,6 @@
 main {
     width: 100vw;
-    height: 200vh;
+    height: 135vh;
 }
 .titulo1{
  @include titulo1
@@ -48,4 +48,10 @@ main {
 }
 .parrafocontacto {
 @include parrafocontacto
+}
+.textocarruselimag {
+@include textocarruselimag
+}
+.titulohojacontac {
+    @include titulohojacontac
 }

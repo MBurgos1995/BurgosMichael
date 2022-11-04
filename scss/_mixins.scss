@@ -93,3 +93,12 @@
     background-repeat: repeat;
     background-position: center;
  }
+   @mixin textocarruselimag {
+      margin-left: ($margenvs*20);
+      width: 60vh;
+      background-color: $colormenu;
+      border: $colornav;
+ }
+ @mixin titulohojacontac {
+   font-size: $tam-fuente ;
+ }
