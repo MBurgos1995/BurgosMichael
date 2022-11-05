@@ -219,6 +219,7 @@ footer {
 
 @media (max-width: 576px) {
   body {
+    width: 50vh;
     height: 400vh;
     overflow-x: hidden;
   }
@@ -265,6 +266,7 @@ label section.titulo3 {
 
 @media (max-width: 320px) {
   body {
+    width: 50vh;
     padding: 0px;
     margin: 0px;
     height: 650px;
@@ -308,6 +310,7 @@ label section.titulo3 {
 }
 @media (max-width: 375px) {
   body {
+    width: 50vh;
     padding: 0px;
     margin: 0px;
     height: 650px;
@@ -351,6 +354,7 @@ label section.titulo3 {
 }
 @media (max-width: 425px) {
   body {
+    width: 50vh;
     padding: 0px;
     margin: 0px;
     height: 650px;
