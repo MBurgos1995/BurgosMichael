@@ -12,7 +12,36 @@
     .textocarruselimag {
         background-color: transparent !important;
     }
-    
+}
+footer {
+    margin-top: 0px;
+    padding: 0px;
+    height: 980px;
+}
+.tituloparrafo3 {
+width: 100vw;
+font-size: ($tam-fuente+10);
+padding: $margenvs ;
+}
+@mixin titulo3 {
+    font-size: ($tam-fuente*12)+50;
+    padding : $margenvs !important;
+}
+.text-nosotros {
+    color: $colormenu;
+    font-size: ($tam-fuente)-5;
+    margin-left: 5px;
+}
+.pie_de_pagina_nosotros {
+    margin-top: 50px;
+}
+label {
+    background-color: $colormenu;
+    font-size: ($tam-fuente/2);
+    font-weight: bold;
+section.titulo3 {
+    padding: $margenvs !important;
+ }
 }
 @media (max-width: 320px) {
     body{
