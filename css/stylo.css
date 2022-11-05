@@ -306,3 +306,89 @@ label section.titulo3 {
     padding: 5px !important;
   }
 }
+@media (max-width: 375px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    height: 650px;
+    overflow-x: hidden;
+  }
+  main {
+    height: 3000px;
+  }
+  .ocultarmobile {
+    display: none;
+  }
+  .textocarruselimag {
+    background-color: transparent !important;
+  }
+  footer {
+    margin-top: 0px;
+    padding: 0px;
+    height: 980px;
+  }
+  .tituloparrafo3 {
+    width: 100vw;
+    font-size: 35px;
+    padding: 5px;
+  }
+  .text-nosotros {
+    color: rgb(255, 205, 38) !important;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .pie_de_pagina_nosotros {
+    margin-top: 50px;
+  }
+  label {
+    background-color: rgb(255, 205, 38) !important;
+    font-size: 12.5px;
+    font-weight: bold;
+  }
+  label section.titulo3 {
+    padding: 5px !important;
+  }
+}
+@media (max-width: 425px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    height: 650px;
+    overflow-x: hidden;
+  }
+  main {
+    height: 3000px;
+  }
+  .ocultarmobile {
+    display: none;
+  }
+  .textocarruselimag {
+    background-color: transparent !important;
+  }
+  footer {
+    margin-top: 0px;
+    padding: 0px;
+    height: 980px;
+  }
+  .tituloparrafo3 {
+    width: 100vw;
+    font-size: 35px;
+    padding: 5px;
+  }
+  .text-nosotros {
+    color: rgb(255, 205, 38) !important;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .pie_de_pagina_nosotros {
+    margin-top: 50px;
+  }
+  label {
+    background-color: rgb(255, 205, 38) !important;
+    font-size: 12.5px;
+    font-weight: bold;
+  }
+  label section.titulo3 {
+    padding: 5px !important;
+  }
+}
