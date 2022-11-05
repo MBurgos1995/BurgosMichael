@@ -2,7 +2,7 @@
 body {
   width: 100vw;
   height: 250vh;
-  background-image: url("../assets/images/fondopagina.jpg");
+  background-image: url("../assets/images/pexels-cottonbro-studio-3826435.jpg");
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
@@ -221,7 +221,6 @@ footer {
   body {
     height: 400vh;
     overflow-x: hidden;
-    overflow-y: auto;
   }
   main {
     height: 430vh;
@@ -235,9 +234,10 @@ footer {
 }
 @media (max-width: 320px) {
   body {
-    height: 520vh;
+    padding: 0px;
+    margin: 0px;
+    height: 600px;
     overflow-x: hidden;
-    overflow-y: auto;
   }
   main {
     height: 550vh;
@@ -247,5 +247,20 @@ footer {
   }
   .textocarruselimag {
     background-color: transparent !important;
+  }
+  footer {
+    margin-top: 0px;
+    padding: 0px;
+  }
+  .tituloparrafo3 {
+    width: 100vw;
+    font-size: 35px;
+    padding: 5px;
+  }
+  .text-nosotros {
+    color: rgb(255, 205, 38) !important;
+  }
+  .pie_de_pagina_nosotros {
+    margin-top: 50px;
   }
 }

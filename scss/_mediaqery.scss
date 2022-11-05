@@ -2,7 +2,6 @@
     body{
         height: 400vh;
         overflow-x: hidden;
-        overflow-y: auto;
     }
     main {
         height: 430vh;
@@ -17,9 +16,10 @@
 }
 @media (max-width: 320px) {
     body{
-        height: 520vh;
+        padding: 0px;
+        margin: 0px;
+        height: 600px;
         overflow-x: hidden;
-        overflow-y: auto
 
     }
     main {
@@ -30,5 +30,24 @@
     }
     .textocarruselimag {
         background-color: transparent !important;
+    }
+    footer {
+        margin-top: 0px;
+        padding: 0px;
+    }
+    .tituloparrafo3 {
+    width: 100vw;
+    font-size: ($tam-fuente+10);
+    padding: $margenvs ;
+    }
+    @mixin titulo3 {
+        font-size: ($tam-fuente*12)+50;
+        padding : $margenvs !important;
+    }
+    .text-nosotros {
+        color: $colormenu;
+    }
+    .pie_de_pagina_nosotros {
+        margin-top: 50px;
     }
 }
