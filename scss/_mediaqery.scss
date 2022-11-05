@@ -18,12 +18,11 @@
     body{
         padding: 0px;
         margin: 0px;
-        height: 600px;
+        height: 650px;
         overflow-x: hidden;
-
     }
     main {
-        height: 550vh;
+        height: 3000px;
     }
     .ocultarmobile {
         display: none;
@@ -34,6 +33,7 @@
     footer {
         margin-top: 0px;
         padding: 0px;
+        height: 980px;
     }
     .tituloparrafo3 {
     width: 100vw;
@@ -46,8 +46,18 @@
     }
     .text-nosotros {
         color: $colormenu;
+        font-size: ($tam-fuente)-5;
+        margin-left: 5px;
     }
     .pie_de_pagina_nosotros {
         margin-top: 50px;
+    }
+    label {
+        background-color: $colormenu;
+        font-size: ($tam-fuente/2);
+        font-weight: bold;
+    section.titulo3 {
+        padding: $margenvs !important;
+     }
     }
 }

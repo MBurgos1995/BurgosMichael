@@ -236,11 +236,11 @@ footer {
   body {
     padding: 0px;
     margin: 0px;
-    height: 600px;
+    height: 650px;
     overflow-x: hidden;
   }
   main {
-    height: 550vh;
+    height: 3000px;
   }
   .ocultarmobile {
     display: none;
@@ -251,6 +251,7 @@ footer {
   footer {
     margin-top: 0px;
     padding: 0px;
+    height: 980px;
   }
   .tituloparrafo3 {
     width: 100vw;
@@ -259,8 +260,18 @@ footer {
   }
   .text-nosotros {
     color: rgb(255, 205, 38) !important;
+    font-size: 20px;
+    margin-left: 5px;
   }
   .pie_de_pagina_nosotros {
     margin-top: 50px;
+  }
+  label {
+    background-color: rgb(255, 205, 38) !important;
+    font-size: 12.5px;
+    font-weight: bold;
+  }
+  label section.titulo3 {
+    padding: 5px !important;
   }
 }
