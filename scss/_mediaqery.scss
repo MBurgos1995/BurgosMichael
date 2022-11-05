@@ -1,7 +1,8 @@
 @media (max-width: 576px) { 
     body{
         height: 400vh;
-    
+        overflow-x: hidden;
+        overflow-y: auto;
     }
     main {
         height: 430vh;
@@ -9,16 +10,25 @@
     .ocultarmobile {
         display: none;
     }
+    .textocarruselimag {
+        background-color: transparent !important;
+    }
+    
 }
 @media (max-width: 320px) {
     body{
         height: 520vh;
-    
+        overflow-x: hidden;
+        overflow-y: auto
+
     }
     main {
         height: 550vh;
     }
     .ocultarmobile {
         display: none;
+    }
+    .textocarruselimag {
+        background-color: transparent !important;
     }
 }

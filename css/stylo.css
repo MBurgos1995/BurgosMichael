@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   width: 100vw;
   height: 250vh;
@@ -143,7 +144,7 @@ main {
 }
 
 .imagenfondocontacto {
-  background-image: url("../assets/images/fondocontacto.jpg");
+  background-image: url("../assets/images/pexels-gerzon-piñata-9512003.jpg");
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
@@ -219,6 +220,8 @@ footer {
 @media (max-width: 576px) {
   body {
     height: 400vh;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
   main {
     height: 430vh;
@@ -226,15 +229,23 @@ footer {
   .ocultarmobile {
     display: none;
   }
+  .textocarruselimag {
+    background-color: transparent !important;
+  }
 }
 @media (max-width: 320px) {
   body {
     height: 520vh;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
   main {
     height: 550vh;
   }
   .ocultarmobile {
     display: none;
+  }
+  .textocarruselimag {
+    background-color: transparent !important;
   }
 }
