@@ -55,8 +55,8 @@ main {
 }
 
 .titulo2 {
-  color: rgb(255, 205, 38) !important !important;
-  font-weight: bold !important;
+color:rgb(255, 205, 38) !important;
+font-weight: bold !important;
 }
 
 .titulo3 {
@@ -145,7 +145,7 @@ main {
 }
 
 .imagenfondocontacto {
-  background-image: url("../assets/images/pexels-gerzon-piñata-9512003.jpg");
+  background-image: url("../assets/images/pexels-gerzon-piñata-9512003\ usar.webp");
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
@@ -267,7 +267,6 @@ label section.titulo3 {
 
 @media (max-width: 425px) {
   body {
-    width: 100vh;
     padding: 0px;
     margin: 0px;
     height: 600px;

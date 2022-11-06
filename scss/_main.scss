@@ -1,31 +1,31 @@
 main {
-    width: 100vw;
-    height: 135vh;
+width: 100vw;
+height: 135vh;
 }
 .titulo1{
  @include titulo1
 }
 .titulo2{
-    color: $colormenu !important;
-    font-weight: bold !important;
+color: $colormenu !important;
+font-weight: bold !important;
 }
 .titulo3{
 @include titulo3
 }
 .titulo4{
- @include titulo4
+@include titulo4
 }
 .titulo5{
-    @include titulo5
+@include titulo5
 } 
 .titulo6 {
 @include titulo6
 } 
 .parrafo1{
-    @include parrafo1
+@include parrafo1
 }
 .centraimagen{
-    justify-content: center !important;
+justify-content: center !important;
 }
 
 .centrarimagen{
@@ -33,15 +33,15 @@ main {
 }
 
 .tituloparrafo3{
-    @include tituloparrafo3
+@include tituloparrafo3
 
 }
  .tituloparrafo5 {
-    @include tituloparrafo5
+@include tituloparrafo5
 }
 .formulariocentrado {
-    padding: ($margenvs/5);
-    margin-left: ($margenvs*2);
+padding: ($margenvs/5);
+margin-left: ($margenvs*2);
 }
 .imagenfondocontacto {
 @include imagenfondocontacto
@@ -53,5 +53,5 @@ main {
 @include textocarruselimag
 }
 .titulohojacontac {
-    @include titulohojacontac
+@include titulohojacontac
 }

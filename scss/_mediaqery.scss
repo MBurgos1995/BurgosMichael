@@ -1,23 +1,23 @@
 @media (max-width: 576px) { 
-    body{
-        width: 50vh;
-        height: 400vh;
-        overflow-x: hidden;
-    }
-    main {
-        height: 430vh;
-    }
-    .ocultarmobile {
-        display: none;
-    }
-    .textocarruselimag {
-        background-color: transparent !important;
-    }
+body{
+width: 50vh;
+height: 400vh;
+overflow-x: hidden;
+}
+main {
+height: 430vh;
+}
+.ocultarmobile {
+display: none;
+}
+.textocarruselimag {
+background-color: transparent !important;
+}
 }
 footer {
-    margin-top: 0px;
-    padding: 0px;
-    height: 980px;
+margin-top: 0px;
+padding: 0px;
+height: 980px;
 }
 .tituloparrafo3 {
 width: 100vw;
@@ -25,69 +25,69 @@ font-size: ($tam-fuente+10);
 padding: $margenvs ;
 }
 @mixin titulo3 {
-    font-size: ($tam-fuente*12)+50;
-    padding : $margenvs !important;
+font-size: ($tam-fuente*12)+50;
+padding : $margenvs !important;
 }
 .text-nosotros {
-    color: $colormenu;
-    font-size: ($tam-fuente)-5;
-    margin-left: 5px;
+color: $colormenu;
+font-size: ($tam-fuente)-5;
+margin-left: 5px;
 }
 .pie_de_pagina_nosotros {
-    margin-top: 50px;
+margin-top: 50px;
 }
 label {
-    background-color: $colormenu;
-    font-size: ($tam-fuente/2);
-    font-weight: bold;
+background-color: $colormenu;
+font-size: ($tam-fuente/2);
+font-weight: bold;
 section.titulo3 {
-    padding: $margenvs !important;
+padding: $margenvs !important;
  }
 }
 @media (max-width: 425px) {
-    body{
-        padding: 0px;
-        margin: 0px;
-        height: 600px;
-        overflow-x: hidden;
-    }
-    main {
-        height: 3500px;
-    }
-    .ocultarmobile {
-        display: none;
-    }
-    .textocarruselimag {
-        background-color: transparent !important;
-    }
-    footer {
-        margin-top: 0px;
-        padding: 0px;
-        height: 980px;
-    }
-    .tituloparrafo3 {
-    width: 100vw;
-    font-size: ($tam-fuente+10);
-    padding: $margenvs ;
-    }
-    @mixin titulo3 {
-        font-size: ($tam-fuente*12)+50;
-        padding : $margenvs !important;
-    }
-    .text-nosotros {
-        color: $colormenu;
-        font-size: ($tam-fuente)-5;
-        margin-left: 5px;
-    }
-    .pie_de_pagina_nosotros {
-        margin-top: 50px;
-    }
-    label {
-        background-color: $colormenu;
-        font-size: ($tam-fuente/2);
-        font-weight: bold;
-    section.titulo3 {
-        padding: $margenvs !important;
-     }
-    }
+body{
+padding: 0px;
+margin: 0px;
+height: 600px;
+overflow-x: hidden;
+}
+main {
+height: 3500px;
+}
+.ocultarmobile {
+display: none;
+}
+.textocarruselimag {
+background-color: transparent !important;
+}
+footer {
+margin-top: 0px;
+padding: 0px;
+height: 980px;
+}
+.tituloparrafo3 {
+width: 100vw;
+font-size: ($tam-fuente+10);
+padding: $margenvs ;
+}
+@mixin titulo3 {
+font-size: ($tam-fuente*12)+50;
+padding : $margenvs !important;
+}
+.text-nosotros {
+color: $colormenu;
+font-size: ($tam-fuente)-5;
+margin-left: 5px;
+}
+.pie_de_pagina_nosotros {
+margin-top: 50px;
+}
+label {
+background-color: $colormenu;
+font-size: ($tam-fuente/2);
+font-weight: bold;
+section.titulo3 {
+padding: $margenvs !important;
+}
+}
 }
