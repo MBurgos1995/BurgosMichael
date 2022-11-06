@@ -1,31 +1,31 @@
 footer {
-    width: 100vw;
-    height: 45vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-end;
+width: 100vw;
+height: 45vh;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: flex-end;
 }
 .pie-de-pagina {
-    @include alineadocentrado;
-    justify-content: flex-start;
-    align-items: flex-end;
-    display: inline-flex;
-    text-decoration: none;
-    font-weight: bold;
+@include alineadocentrado;
+justify-content: flex-start;
+align-items: flex-end;
+display: inline-flex;
+text-decoration: none;
+font-weight: bold;
 
 }
 .iconofooter {
-    width: ($margenvs*10) !important;
-    padding: $margenvs !important;
-    margin: $margenvs !important;
+width: ($margenvs*10) !important;
+padding: $margenvs !important;
+margin: $margenvs !important;
 
 }
 
  .pie-de-pagina-contacto {
-     margin: ($margenvs*10);
-     margin-left: ($margenvs*4);
+margin: ($margenvs*10);
+margin-left: ($margenvs*4);
  }
  .pie-de-pagina-trabajosrealizados {
-   height: 1vh ;
+height: 1vh ;
  }
