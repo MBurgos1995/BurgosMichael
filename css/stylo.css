@@ -55,8 +55,8 @@ main {
 }
 
 .titulo2 {
-color:rgb(255, 205, 38) !important;
-font-weight: bold !important;
+  color: rgb(255, 205, 38) !important;
+  font-weight: bold !important;
 }
 
 .titulo3 {
@@ -145,7 +145,7 @@ font-weight: bold !important;
 }
 
 .imagenfondocontacto {
-  background-image: url("../assets/images/pexels-gerzon-piñata-9512003\ usar.webp");
+  background-image: url("../assets/images/pexels-gerzon-piñata-9512003.jpg");
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
@@ -215,7 +215,7 @@ footer {
 }
 
 .pie-de-pagina-trabajosrealizados {
-  height: 1vh;
+  height: 100px;
 }
 
 @media (max-width: 576px) {
@@ -284,7 +284,7 @@ label section.titulo3 {
   footer {
     margin-top: 0px;
     padding: 0px;
-    height: 980px;
+    height: 150px;
   }
   .tituloparrafo3 {
     width: 100vw;
