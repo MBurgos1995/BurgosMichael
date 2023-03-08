@@ -55,7 +55,7 @@ main {
 }
 
 .titulo2 {
-  color: rgb(255, 205, 38) !important;
+  color: rgb(255, 205, 38) !important !important;
   font-weight: bold !important;
 }
 
@@ -168,6 +168,26 @@ main {
 
 .titulohojacontac {
   font-size: 25px;
+}
+
+.clientes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  height: 430px;
+}
+
+.galeriaclientes {
+  width: 0px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.8;
+  -webkit-transition: 0.5 ease;
+  transition: 0.5 ease;
 }
 
 footer {
