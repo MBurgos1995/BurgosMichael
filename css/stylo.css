@@ -198,6 +198,10 @@ main {
           filter: contrast(120%);
 }
 
+.parrafompjf {
+  color: rgb(255, 205, 38) !important;
+}
+
 footer {
   width: 100vw;
   height: 45vh;
