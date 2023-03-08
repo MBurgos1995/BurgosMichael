@@ -55,15 +55,21 @@ margin-left: ($margenvs*2);
 .titulohojacontac {
 @include titulohojacontac
 }
-.clientes  {
+.clientes {
     display: flex;
-    width: 600px;
+    width: 100%;
     height: 430px;
     }
-    .galeriaclientes {
+.galeriaclientes {
         width: 0px;
         flex-grow: 1;
         object-fit: cover;
         opacity: .8;
-        transition: .5 ease;
+        transition: .1 ease;
+    }
+    .galeriaclientes:hover {
+        cursor: crosshair;
+        width: 300px;
+        opacity: 2;
+        filter: contrast(120%);
     }
