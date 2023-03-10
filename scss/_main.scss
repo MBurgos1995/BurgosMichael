@@ -76,3 +76,8 @@ margin-left: ($margenvs*2);
 .parrafompjf {
     @include coloramarillo
 }
+.titulo7 {
+    @include coloramarillo ;
+    margin-left: ($margenvs*4);
+    margin-top: ($margenvs*2);
+}

@@ -202,6 +202,12 @@ main {
   color: rgb(255, 205, 38) !important;
 }
 
+.titulo7 {
+  color: rgb(255, 205, 38) !important;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
 footer {
   width: 100vw;
   height: 45vh;
