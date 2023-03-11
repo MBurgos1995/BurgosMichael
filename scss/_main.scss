@@ -74,7 +74,11 @@ margin-left: ($margenvs*2);
         filter: contrast(120%);
     }
 .parrafompjf {
-    @include coloramarillo
+    @include coloramarillo ;
+    font-size: ($tam-fuente - 5) ;
+    margin-left: ($margenvs*2) ;
+    margin-right: ($margenvs*8) ;
+    padding-right: ($margenvs*7) ;
 }
 .titulo7 {
     @include coloramarillo ;
