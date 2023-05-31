@@ -55,7 +55,7 @@ main {
 }
 
 .titulo2 {
-  color: rgb(255, 205, 38) !important;
+  color: rgb(255, 205, 38) !important !important;
   font-weight: bold !important;
 }
 
