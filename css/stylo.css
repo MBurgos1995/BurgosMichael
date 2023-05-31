@@ -55,7 +55,7 @@ main {
 }
 
 .titulo2 {
-  color: rgb(255, 205, 38) !important !important;
+  color: rgb(255, 205, 38) !important;
   font-weight: bold !important;
 }
 
@@ -357,4 +357,7 @@ label section.titulo3 {
   label section.titulo3 {
     padding: 5px !important;
   }
+}
+.elemento-a-ocultar {
+  display: none;
 }
