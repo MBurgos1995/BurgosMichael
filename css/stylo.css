@@ -55,7 +55,7 @@ main {
 }
 
 .titulo2 {
-  color: rgb(255, 205, 38) !important;
+  color: rgb(255, 205, 38) !important !important;
   font-weight: bold !important;
 }
 
@@ -312,7 +312,7 @@ label section.titulo3 {
   padding: 5px !important;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 576px) {
   .clientes {
     display: none;
   }
@@ -360,21 +360,4 @@ label section.titulo3 {
   label section.titulo3 {
     padding: 5px !important;
   }
-}
-* { box-sizing: border-box; }
-
-body { font-family: sans-serif; }
-
-.carousel {
-  background: #EEE;
-}
-
-.carousel-cell {
-  margin-right: 20px;
-  overflow: hidden;
-}
-
-.carousel-cell img {
-  display: block;
-  height: 200px;
 }
