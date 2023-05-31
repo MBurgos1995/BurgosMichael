@@ -1,3 +1,8 @@
+@media (max-width: 1567px) {
+.carousel{
+display: none;
+}
+}
 @media (max-width: 576px) { 
 body{
 width: 50vh;
@@ -45,9 +50,9 @@ padding: $margenvs !important;
  }
 }
 @media (max-width: 425px) {
-    .clientes{
-        display: none;
-    }
+.clientes{
+display: none;
+}
 body{
 padding: 0px;
 margin: 0px;

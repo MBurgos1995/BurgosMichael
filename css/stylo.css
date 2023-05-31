@@ -260,6 +260,11 @@ footer {
   height: 100px;
 }
 
+@media (max-width: 1567px) {
+  .carousel {
+    display: none;
+  }
+}
 @media (max-width: 576px) {
   body {
     width: 50vh;
