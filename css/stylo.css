@@ -316,6 +316,9 @@ label section.titulo3 {
   .clientes {
     display: none;
   }
+  .elementoMostrar {
+    visibility: visible;
+  }
   body {
     padding: 0px;
     margin: 0px;
@@ -356,32 +359,5 @@ label section.titulo3 {
   }
   label section.titulo3 {
     padding: 5px !important;
-  }
-}
-.elemento-a-ocultar {
-  display: none;
-}
-
-* { box-sizing: border-box; }
-
-body { font-family: sans-serif; }
-
-.carousel {
-  background: #EEE;
-}
-
-.carousel-cell {
-  margin-right: 20px;
-  overflow: hidden;
-}
-
-.carousel-cell img {
-  display: block;
-  height: 200px;
-}
-
-@media screen and ( min-width: 768px ) {
-  .carousel-cell img {
-    height: 400px;
   }
 }
