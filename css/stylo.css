@@ -260,7 +260,7 @@ footer {
   height: 100px;
 }
 
-@media (max-width: 1670px) {
+@media (max-width: 2000px) {
   .carousel {
     display: none;
   }
