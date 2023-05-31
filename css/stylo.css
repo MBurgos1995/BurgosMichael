@@ -55,7 +55,7 @@ main {
 }
 
 .titulo2 {
-  color: rgb(255, 205, 38) !important;
+  color: rgb(255, 205, 38) !important !important;
   font-weight: bold !important;
 }
 
@@ -316,6 +316,9 @@ label section.titulo3 {
   .clientes {
     display: none;
   }
+  .elementoMostrar {
+    visibility: visible;
+  }
   body {
     padding: 0px;
     margin: 0px;
@@ -357,7 +360,4 @@ label section.titulo3 {
   label section.titulo3 {
     padding: 5px !important;
   }
-}
-.elemento-a-ocultar {
-  display: none;
 }
