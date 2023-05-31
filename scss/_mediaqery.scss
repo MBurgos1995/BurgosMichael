@@ -45,6 +45,9 @@ padding: $margenvs !important;
  }
 }
 @media (max-width: 425px) {
+    .clientes{
+        display: none;
+    }
 body{
 padding: 0px;
 margin: 0px;

@@ -308,6 +308,9 @@ label section.titulo3 {
 }
 
 @media (max-width: 425px) {
+  .clientes {
+    display: none;
+  }
   body {
     padding: 0px;
     margin: 0px;
